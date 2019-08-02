@@ -1,0 +1,621 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8B218BCE22E7F58400DB3D88 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B218BCD22E7F58400DB3D88 /* MainViewController.swift */; };
+		8B218BD022E7F5E000DB3D88 /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B218BCF22E7F5E000DB3D88 /* NewsViewController.swift */; };
+		8B218BD222E7F60200DB3D88 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B218BD122E7F60200DB3D88 /* AboutViewController.swift */; };
+		8B218BD422E9EC5600DB3D88 /* NewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B218BD322E9EC5600DB3D88 /* NewCell.swift */; };
+		8B24570F22EDA780007E920B /* NewsDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B24570E22EDA780007E920B /* NewsDetail.swift */; };
+		8B58118522EED3BB007EBD32 /* UMCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B58118422EED3BB007EBD32 /* UMCommon.framework */; };
+		8B58118722EED3E4007EBD32 /* UMAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B58118622EED3E4007EBD32 /* UMAnalytics.framework */; };
+		8B58118922EED404007EBD32 /* UMCommonLog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B58118822EED404007EBD32 /* UMCommonLog.framework */; };
+		8B58118D22EED6AF007EBD32 /* ococ.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B58118C22EED6AF007EBD32 /* ococ.m */; };
+		8B58119022EED9F9007EBD32 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B58118F22EED9F9007EBD32 /* libz.tbd */; };
+		8B58119222EEDA10007EBD32 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B58119122EEDA10007EBD32 /* libsqlite3.0.tbd */; };
+		8B58119422EEDA23007EBD32 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B58119322EEDA23007EBD32 /* CoreTelephony.framework */; };
+		8B58119622EEDA2F007EBD32 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B58119522EEDA2F007EBD32 /* SystemConfiguration.framework */; };
+		8B58119822EF29AF007EBD32 /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B58119722EF29AF007EBD32 /* ResultView.swift */; };
+		8BB028D322E6D94800847A43 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB028D222E6D94800847A43 /* AppDelegate.swift */; };
+		8BB028D522E6D94800847A43 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB028D422E6D94800847A43 /* ViewController.swift */; };
+		8BB028D822E6D94800847A43 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BB028D622E6D94800847A43 /* Main.storyboard */; };
+		8BB028DB22E6D94800847A43 /* carLoan.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8BB028D922E6D94800847A43 /* carLoan.xcdatamodeld */; };
+		8BB028DD22E6D94A00847A43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BB028DC22E6D94A00847A43 /* Assets.xcassets */; };
+		8BB028E022E6D94A00847A43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BB028DE22E6D94A00847A43 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8B218BCD22E7F58400DB3D88 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		8B218BCF22E7F5E000DB3D88 /* NewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
+		8B218BD122E7F60200DB3D88 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		8B218BD322E9EC5600DB3D88 /* NewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewCell.swift; sourceTree = "<group>"; };
+		8B24570E22EDA780007E920B /* NewsDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsDetail.swift; sourceTree = "<group>"; };
+		8B58118422EED3BB007EBD32 /* UMCommon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UMCommon.framework; sourceTree = "<group>"; };
+		8B58118622EED3E4007EBD32 /* UMAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UMAnalytics.framework; sourceTree = "<group>"; };
+		8B58118822EED404007EBD32 /* UMCommonLog.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UMCommonLog.framework; sourceTree = "<group>"; };
+		8B58118B22EED6AE007EBD32 /* carLoan-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "carLoan-Bridging-Header.h"; sourceTree = "<group>"; };
+		8B58118C22EED6AF007EBD32 /* ococ.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ococ.m; sourceTree = "<group>"; };
+		8B58118F22EED9F9007EBD32 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		8B58119122EEDA10007EBD32 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		8B58119322EEDA23007EBD32 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		8B58119522EEDA2F007EBD32 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		8B58119722EF29AF007EBD32 /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
+		8BB028D222E6D94800847A43 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8BB028D422E6D94800847A43 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8BB028D722E6D94800847A43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8BB028DA22E6D94800847A43 /* carLoan.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = carLoan.xcdatamodel; sourceTree = "<group>"; };
+		8BB028DC22E6D94A00847A43 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8BB028DF22E6D94A00847A43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8BB028E122E6D94A00847A43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BEFCD2F22F3EA050015F117 /* carLoan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = carLoan.app; path = "/Users/developer/Desktop/git/carLoan/carLoan/build/Debug-iphoneos/carLoan.app"; sourceTree = "<absolute>"; };
+		8BEFCD3022F3EA050015F117 /* carLoanAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = carLoanAPP.app; path = "/Users/developer/Desktop/git/carLoan/carLoan/build/Debug-iphoneos/carLoanAPP.app"; sourceTree = "<absolute>"; };
+		8BEFCD3122F3EA050015F117 /* demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = demo.app; path = "/Users/developer/Desktop/git/carLoan/carLoan/build/Debug-iphoneos/demo.app"; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8B5F275722F1D73700C8B480 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B5F277022F1D7C700C8B480 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BB028CC22E6D94800847A43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B58119622EEDA2F007EBD32 /* SystemConfiguration.framework in Frameworks */,
+				8B58119422EEDA23007EBD32 /* CoreTelephony.framework in Frameworks */,
+				8B58119222EEDA10007EBD32 /* libsqlite3.0.tbd in Frameworks */,
+				8B58119022EED9F9007EBD32 /* libz.tbd in Frameworks */,
+				8B58118922EED404007EBD32 /* UMCommonLog.framework in Frameworks */,
+				8B58118522EED3BB007EBD32 /* UMCommon.framework in Frameworks */,
+				8B58118722EED3E4007EBD32 /* UMAnalytics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8B58118E22EED9F9007EBD32 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8B58119522EEDA2F007EBD32 /* SystemConfiguration.framework */,
+				8B58119322EEDA23007EBD32 /* CoreTelephony.framework */,
+				8B58119122EEDA10007EBD32 /* libsqlite3.0.tbd */,
+				8B58118F22EED9F9007EBD32 /* libz.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8BB028C622E6D94800847A43 = {
+			isa = PBXGroup;
+			children = (
+				8B58118822EED404007EBD32 /* UMCommonLog.framework */,
+				8B58118622EED3E4007EBD32 /* UMAnalytics.framework */,
+				8B58118422EED3BB007EBD32 /* UMCommon.framework */,
+				8BB028D122E6D94800847A43 /* carLoan */,
+				8B58118E22EED9F9007EBD32 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8BB028D122E6D94800847A43 /* carLoan */ = {
+			isa = PBXGroup;
+			children = (
+				8BB028D222E6D94800847A43 /* AppDelegate.swift */,
+				8BB028D422E6D94800847A43 /* ViewController.swift */,
+				8BB028D622E6D94800847A43 /* Main.storyboard */,
+				8BB028DC22E6D94A00847A43 /* Assets.xcassets */,
+				8BB028DE22E6D94A00847A43 /* LaunchScreen.storyboard */,
+				8BB028E122E6D94A00847A43 /* Info.plist */,
+				8BB028D922E6D94800847A43 /* carLoan.xcdatamodeld */,
+				8B218BCD22E7F58400DB3D88 /* MainViewController.swift */,
+				8B218BCF22E7F5E000DB3D88 /* NewsViewController.swift */,
+				8B218BD122E7F60200DB3D88 /* AboutViewController.swift */,
+				8B218BD322E9EC5600DB3D88 /* NewCell.swift */,
+				8B24570E22EDA780007E920B /* NewsDetail.swift */,
+				8B58118C22EED6AF007EBD32 /* ococ.m */,
+				8B58118B22EED6AE007EBD32 /* carLoan-Bridging-Header.h */,
+				8B58119722EF29AF007EBD32 /* ResultView.swift */,
+			);
+			path = carLoan;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8B5F275922F1D73700C8B480 /* carLoanAPP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B5F276C22F1D73A00C8B480 /* Build configuration list for PBXNativeTarget "carLoanAPP" */;
+			buildPhases = (
+				8B5F275622F1D73700C8B480 /* Sources */,
+				8B5F275722F1D73700C8B480 /* Frameworks */,
+				8B5F275822F1D73700C8B480 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = carLoanAPP;
+			productName = carLoanAPP;
+			productReference = 8BEFCD3022F3EA050015F117 /* carLoanAPP.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8B5F277222F1D7C700C8B480 /* demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B5F278522F1D7C800C8B480 /* Build configuration list for PBXNativeTarget "demo" */;
+			buildPhases = (
+				8B5F276F22F1D7C700C8B480 /* Sources */,
+				8B5F277022F1D7C700C8B480 /* Frameworks */,
+				8B5F277122F1D7C700C8B480 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = demo;
+			productName = demo;
+			productReference = 8BEFCD3122F3EA050015F117 /* demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8BB028CE22E6D94800847A43 /* carLoan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BB028E422E6D94A00847A43 /* Build configuration list for PBXNativeTarget "carLoan" */;
+			buildPhases = (
+				8BB028CB22E6D94800847A43 /* Sources */,
+				8BB028CC22E6D94800847A43 /* Frameworks */,
+				8BB028CD22E6D94800847A43 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = carLoan;
+			productName = carLoan;
+			productReference = 8BEFCD2F22F3EA050015F117 /* carLoan.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8BB028C722E6D94800847A43 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = developer;
+				TargetAttributes = {
+					8B5F275922F1D73700C8B480 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					8B5F277222F1D7C700C8B480 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					8BB028CE22E6D94800847A43 = {
+						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 0940;
+					};
+				};
+			};
+			buildConfigurationList = 8BB028CA22E6D94800847A43 /* Build configuration list for PBXProject "carLoan" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8BB028C622E6D94800847A43;
+			productRefGroup = 8BB028C622E6D94800847A43;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8BB028CE22E6D94800847A43 /* carLoan */,
+				8B5F275922F1D73700C8B480 /* carLoanAPP */,
+				8B5F277222F1D7C700C8B480 /* demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8B5F275822F1D73700C8B480 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B5F277122F1D7C700C8B480 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BB028CD22E6D94800847A43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BB028E022E6D94A00847A43 /* LaunchScreen.storyboard in Resources */,
+				8BB028DD22E6D94A00847A43 /* Assets.xcassets in Resources */,
+				8BB028D822E6D94800847A43 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8B5F275622F1D73700C8B480 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B5F276F22F1D7C700C8B480 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BB028CB22E6D94800847A43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B58118D22EED6AF007EBD32 /* ococ.m in Sources */,
+				8B218BD222E7F60200DB3D88 /* AboutViewController.swift in Sources */,
+				8B218BD422E9EC5600DB3D88 /* NewCell.swift in Sources */,
+				8BB028D522E6D94800847A43 /* ViewController.swift in Sources */,
+				8B24570F22EDA780007E920B /* NewsDetail.swift in Sources */,
+				8BB028DB22E6D94800847A43 /* carLoan.xcdatamodeld in Sources */,
+				8BB028D322E6D94800847A43 /* AppDelegate.swift in Sources */,
+				8B58119822EF29AF007EBD32 /* ResultView.swift in Sources */,
+				8B218BD022E7F5E000DB3D88 /* NewsViewController.swift in Sources */,
+				8B218BCE22E7F58400DB3D88 /* MainViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8BB028D622E6D94800847A43 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BB028D722E6D94800847A43 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8BB028DE22E6D94A00847A43 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BB028DF22E6D94A00847A43 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8B5F276D22F1D73A00C8B480 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FGH7477772;
+				INFOPLIST_FILE = carLoanAPP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = westwind.carLoanAPP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8B5F276E22F1D73A00C8B480 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FGH7477772;
+				INFOPLIST_FILE = carLoanAPP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = westwind.carLoanAPP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8B5F278622F1D7C800C8B480 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = FGH7477772;
+				INFOPLIST_FILE = demo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.westwind.carLoan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "45f75a3e-f95a-4c85-a2c9-b13f559fc252";
+				PROVISIONING_PROFILE_SPECIFIER = carLoan;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		8B5F278722F1D7C800C8B480 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = FGH7477772;
+				INFOPLIST_FILE = demo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.westwind.carLoan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "45f75a3e-f95a-4c85-a2c9-b13f559fc252";
+				PROVISIONING_PROFILE_SPECIFIER = carLoan;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		8BB028E222E6D94A00847A43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8BB028E322E6D94A00847A43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8BB028E522E6D94A00847A43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = FGH7477772;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = carLoan/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.westwind.carLoan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "45f75a3e-f95a-4c85-a2c9-b13f559fc252";
+				PROVISIONING_PROFILE_SPECIFIER = carLoan;
+				SWIFT_OBJC_BRIDGING_HEADER = "carLoan/carLoan-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		8BB028E622E6D94A00847A43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = carLoan/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.westwind.carLoan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "carLoan/carLoan-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8B5F276C22F1D73A00C8B480 /* Build configuration list for PBXNativeTarget "carLoanAPP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B5F276D22F1D73A00C8B480 /* Debug */,
+				8B5F276E22F1D73A00C8B480 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B5F278522F1D7C800C8B480 /* Build configuration list for PBXNativeTarget "demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B5F278622F1D7C800C8B480 /* Debug */,
+				8B5F278722F1D7C800C8B480 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BB028CA22E6D94800847A43 /* Build configuration list for PBXProject "carLoan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BB028E222E6D94A00847A43 /* Debug */,
+				8BB028E322E6D94A00847A43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BB028E422E6D94A00847A43 /* Build configuration list for PBXNativeTarget "carLoan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BB028E522E6D94A00847A43 /* Debug */,
+				8BB028E622E6D94A00847A43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8BB028D922E6D94800847A43 /* carLoan.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8BB028DA22E6D94800847A43 /* carLoan.xcdatamodel */,
+			);
+			currentVersion = 8BB028DA22E6D94800847A43 /* carLoan.xcdatamodel */;
+			path = carLoan.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8BB028C722E6D94800847A43 /* Project object */;
+}
